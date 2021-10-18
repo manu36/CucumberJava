@@ -22,8 +22,12 @@ public class testServicio {
 	@Then("^response de servicio$")
 	public void response_de_servicio() throws Throwable {
 	
-		System.out.println("RESPONSE SERVICIO: ");
-		System.out.println(xml);
+		if (xml == "OK") {
+			System.out.println("RESPONSE SERVICIO: OK!");
+		}else {
+			System.out.println(xml);
+		}
+		
 	
 	}
 	
