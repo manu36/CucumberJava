@@ -1,2 +1,4 @@
-StepDefinitions\testServicio.class
 Runner\TestRunner.class
+StepDefinitions\testServicio.class
+StepDefinitions\testServicioPokemon.class
+StepDefinitions\testServicioRandom01.class
